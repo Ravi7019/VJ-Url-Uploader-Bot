@@ -54,11 +54,9 @@ class Translation(object):
 
     
     TECH_VJ_START_BUTTONS = InlineKeyboardMarkup(
-        [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/KannadaFlix6')
-        ], [
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
+        ]]
+            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Movierequest6_bot'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://KannadaFlix6')
         ], [
             InlineKeyboardButton('❓ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🦊 ᴀʙᴏᴜᴛ', callback_data='about')
