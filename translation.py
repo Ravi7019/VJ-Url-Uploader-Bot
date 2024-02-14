@@ -65,7 +65,7 @@ class Translation(object):
     TECH_VJ_HELP_BUTTONS = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Movierequest6_bot'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://KannadaFlix6')
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/KannadaFlix6')
         ], [
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='home'),
             InlineKeyboardButton('🦊 ᴀʙᴏᴜᴛ', callback_data='about')
