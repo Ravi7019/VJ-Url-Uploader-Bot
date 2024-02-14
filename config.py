@@ -38,7 +38,7 @@ class Config(object):
     
     # proxy for accessing youtube-dl in GeoRestricted Areas
     # Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061
-    TECH_VJ_HTTP_PROXY = ""
+    TECH_VJ_HTTP_PROXY = "8080"
     
     # maximum message length in Telegram
     TECH_VJ_MAX_MESSAGE_LENGTH = 4096
@@ -51,7 +51,7 @@ class Config(object):
     TECH_VJ_SESSION_NAME = "VJ-URL-UPLOADER-BOT"
     
     # database uri (mongodb)
-    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://URL:URL@cluster0.5ihlslt.mongodb.net/?retryWrites=true&w=majority")
+    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://KR:KR@cluster0.wuxcaey.mongodb.net/?retryWrites=true&w=majority")
     TECH_VJ_MAX_RESULTS = "50"
 
     # channel information
