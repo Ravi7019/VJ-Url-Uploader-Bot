@@ -62,7 +62,7 @@ class Config(object):
     TECH_VJ_UPDATES_CHANNEL = int(tech_vj_update_channel) if tech_vj_update_channel and id_pattern.search(tech_vj_update_channel) else None  
     
     # Url Shortner Information 
-    TECH_VJ = bool(environ.get('TECH_VJ', True)) # Set False If you want shortlink off else True
+    TECH_VJ = bool(environ.get('TECH_VJ', False)) # Set False If you want shortlink off else True
     TECH_VJ_URL = environ.get('TECH_VJ_URL', 'publicearn.com') # your shortlink url domain or url without https://
     TECH_VJ_API = environ.get('TECH_VJ_API', '81c281e4c3ee5390ce1fb5f1698380b2e580f3b0') # your url shortner api
     TECH_VJ_TUTORIAL = os.environ.get("TECH_VJ_TUTORIAL", "https://t.me/How_To_Open_Links_bypass")
